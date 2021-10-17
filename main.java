@@ -24,22 +24,20 @@ public class main {
         //comment
 
 
-        r = a % 2;
-        if (r == 0) {
+
+        if (a % 2 == 0) {
             System.out.println("variable a: " + a + " is even");
-        }
-        else if (r == 1) {
+        } else if (a % 2 == 1) {
             System.out.println("variable a: " + a + " is even");
-        }
-        else {
+        } else {
             System.out.println("unexpected result:");
         }
 
-        r = b % 2;
-        if (r == 0) {
+
+        if (b % 2 == 0) {
             System.out.println("variable b: " + b + " is even");
         }
-        else if (r == 1) {
+        else if (b % 2 == 1) {
             System.out.println("variable b: " + b + " is odd");
         }
         else {
